@@ -15,15 +15,14 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
   }
   body {
-    color: white;
+    color: #e8e5e5;
     background: black;
   }
-}
+
 
 .grid{
   display: grid;
@@ -35,7 +34,7 @@ a {
   width: 100px;
   height: 100px;
   font-size: 50px;
-  color: #e8e5e5;
+  text-align: center;
   border: solid 1px #e8e5e5;
   background-color: transparent;
 }
